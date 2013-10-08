@@ -147,7 +147,7 @@ for P in Page_1:
 		except socket.timeout, e:  
 		    print("----------socket timout3:")
 		    continue 
-		binfile = open('/Users/a/desktop/aaa/少女馆'+str(Count)+'.jpg', "wb");  #文件路径
+		binfile = open('/Users/a/desktop/aaa/pic'+str(Count)+'.jpg', "wb");  #文件路径
 		binfile.write(respHtml);
 		binfile.close();
 
