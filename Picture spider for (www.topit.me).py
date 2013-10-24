@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-	
+#From Sterncat 2013.9
 from BeautifulSoup import BeautifulSoup
 import urllib2,re,time,datetime,socket
 
